@@ -831,11 +831,8 @@ class File:public Editor
 					for(int j=0;j<65;j++)
 					{
 						
-							char c=txt[i][j];
-							B.put(c);
-						
-						
-						
+						char c=txt[i][j];
+						B.put(c);	
 					}
 					B.put('\n');
 					
